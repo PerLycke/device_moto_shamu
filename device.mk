@@ -19,6 +19,8 @@
 #
 # Everything in this directory will become public
 
+PRODUCT_COPY_FILES += \
+    device/moto/shamu/prebuilts/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_COPY_FILES += \
     device/moto/shamu/init.shamu.rc:root/init.shamu.rc \
