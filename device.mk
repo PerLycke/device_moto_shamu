@@ -412,3 +412,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Low latency audio buffer size in frames
 PRODUCT_PROPERTY_OVERRIDES += \
     audio_hal.period_size=192
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.spring.version=$(SPRING_VERSION)
